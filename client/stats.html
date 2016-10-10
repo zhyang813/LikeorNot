@@ -1,0 +1,26 @@
+<div id='container'>
+  <div class='navigation'>
+    <ul>
+     <li><a href='#/list' >List</a></li>
+     <li><a href='#/stats' >Result</a></li>
+    </ul>
+    <a href='#/donate' class='donate'>Donate</a>
+  </div>
+
+
+  <form name='qSearch'>
+    <input name='question' type="text" ng-model='search' placeholder="filter" />
+  </form>
+
+  <div class="question" ng-repeat="q in data.qs | orderBy:'-created' | filter: search">
+    <img src='assets/thumbdown.png' height="40" width="50">
+    <div class="stat">{{ q.downs }}</div>
+    <img src='assets/thumbup.png' height="40" width="50">
+    <div class="stat">{{ q.ups }}</div>
+    <div class="text1">{{ q.text }}</div>
+  </div>
+
+
+
+
+</div>

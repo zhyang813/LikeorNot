@@ -1,0 +1,29 @@
+<div id='container'>
+
+  <div class='navigation'>
+    <ul>
+     <li><a href='#/list' >List</a></li>
+     <li><a href='#/stats' >Result</a></li>
+    </ul>
+    <a href='#/donate' class='donate'>Donate</a>
+  </div>
+
+  <form name='qForm' ng-submit="addQs()" >
+    <input name='question' type="text" ng-model="qs.text" placeholder="Enter your question here" >
+    <button type="submit" >add</button>
+  </form>
+
+
+
+  <div class="question" ng-repeat="q in data.qs | orderBy:'-created'">
+      <img src='assets/thumbdown.png' height="40" width="50" ng-click="myStyle2={'opacity':0.2}; myStyle1={'opacity':1}; thumbDown(q);" ng-style="myStyle1" style="cursor: pointer;">
+      <img src='assets/thumbup.png' height="40" width="50" ng-click="myStyle1={'opacity':0.2}; myStyle2={'opacity':1}; thumbUp(q);" ng-style="myStyle2" style="cursor: pointer;">
+      <div class="text">{{ q.text }}</div>
+  </div>
+
+
+
+
+
+
+</div>
