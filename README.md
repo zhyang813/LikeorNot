@@ -17,7 +17,7 @@ Once the project moves into development, the press release can be used as a touc
  -->
 
 ## Heading ##
-  > Thumb up or thumb down
+  > Like or Not
 
 ## Sub-Heading ##
   > To have opinion collected on the questions user raised.
@@ -26,19 +26,19 @@ Once the project moves into development, the press release can be used as a touc
   > An App allows user to add questions to recieve thumb ups or thumb downs from other users, and to see the result statistics. This is the minimum viable product developed with M.E.A.N stack.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > Survey is hard to design and implement. 
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > Why worry about the whole survey methodology and stuff, just use this, simple and easy.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > Nope, I do not quote.
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > Post a question and wait for you prize.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "Better than Gallup" - Hillary Clinton /  "Worst idea ever, I have a better plan!" - Donald Trump
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Start posting your question!
