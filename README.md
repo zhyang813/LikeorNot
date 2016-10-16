@@ -1,4 +1,4 @@
-Like or Not
+
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,11 +16,9 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
 
-## Heading ##
-  > Like or Not
+## LinkorNot ##
 
-## Sub-Heading ##
-  > To have opinion collected on the questions user raised.
+## To have opinion collected on the questions user raised ##
 
 ## Summary ##
   > An App allows user to add questions to recieve thumb ups or thumb downs from other users, and to see the result statistics. This is the minimum viable product developed with M.E.A.N stack.
